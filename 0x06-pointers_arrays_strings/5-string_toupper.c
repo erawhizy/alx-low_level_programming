@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *string_toupper : converting my string to uppercase
- *@x: string panaram
- *Return: string
+ * string_toupper -> converting my string to any uppercase
+ * @x: string panaram
+ * Return: string
  */
 char *string_toupper(char *x)
 {

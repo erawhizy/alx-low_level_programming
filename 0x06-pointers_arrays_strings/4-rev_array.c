@@ -1,6 +1,5 @@
 #include "main.h"
 /**
- *
  *@a: array a
  *@n: an element of an array
  */

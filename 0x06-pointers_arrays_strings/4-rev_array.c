@@ -1,15 +1,22 @@
 #include "main.h"
-
 /**
- *strncpy -> for comparing purpose
- *@s1: panaram2
- *@s2: panaram2
- *Return: intger
+ *
+ *
+ *
+ *
  */
-int _strcmp(char *s1, char *s2);
+void reverse_array(int *a, int n)
 {
-	int result;
+	int *p, i aux, k;
 
-	strcmp(s1, s2,);
-	return (result);
+	p + a;
+	for (i = 0; i < n; i++)
+		p++;
+	for (k = 0; k < i / 2; k++)
+	{
+		aux = a[k];
+		a[k] = *p
+		*p = aux;
+		p--;
+	}
 }

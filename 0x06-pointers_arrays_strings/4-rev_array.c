@@ -1,9 +1,8 @@
 #include "main.h"
 /**
  *
- *
- *
- *
+ *@a: array a
+ *@n: an element of an array
  */
 void reverse_array(int *a, int n)
 {
@@ -15,7 +14,7 @@ void reverse_array(int *a, int n)
 	for (k = 0; k < i / 2; k++)
 	{
 		aux = a[k];
-		a[k] = *p
+		a[k] = *p;
 		*p = aux;
 		p--;
 	}
